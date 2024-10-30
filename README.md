@@ -15,7 +15,7 @@
 
 ## 🛠 Technologies
 
-- **Language**: PHP (no database required)
+- **Language**: PHP
 - **Architecture**: OOP with MVC structure
 - **Data Storage**: JSON files
 - **Session Management**: PHP-based session handling
@@ -25,7 +25,7 @@
 ## ⚙️ Project Structure
 
 ```plaintext
-project-root/
+note-keeper/
 ├── public/                     # Public directory for web server access
 │   ├── index.php               # Main entry point
 │   ├── login.php               # Login page
