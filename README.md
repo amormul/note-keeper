@@ -29,11 +29,8 @@ note-keeper/
 ├── public/                     # Public directory for web server access
 │   ├── index.php               # Main entry point
 │   ├── login.php               # Login page
-│   ├── register.php            # Registration page
-│   └── assets/
-│       ├── css/                # Styles
-│       │   └── styles.css
-│       └── js/                 # JavaScript files (if needed)
+│   └── register.php            # Registration page
+│ 
 ├── src/                        # Application core
 │   ├── App/                    # Core application logic
 │   │   ├── Controllers/        # Controllers
