@@ -26,27 +26,27 @@
 
 ```plaintext
 note-keeper/
-├── public/                     # Public directory for web server access
-│   ├── index.php               # Main entry point
-│   ├── login.php               # Login page
-│   └── register.php            # Registration page
+├── public/                                    # Public directory for web server access
+│   ├── index.php                              # Main entry point
+│   ├── login.php                              # Login page
+│   └── register.php                           # Registration page
 │ 
-├── src/                        # Application core
-│   ├── App/                    # Core application logic
-│   │   ├── Controllers/        # Controllers
-│   │   │   ├── AuthController.php      # Login and registration logic
-│   │   │   └── NoteController.php      # Note management logic
-│   │   ├── Models/             # Models (data handling)
-│   │   │   ├── User.php                # User model
-│   │   │   └── Note.php                # Note model
-│   │   ├── Views/              # Views
-│   │   │   ├── auth/                   # Authentication views
-│   │   │   ├── notes/                  # Note views
-│   │   │   └── partials/               # Partials (header, footer, etc.)
-│   │   ├── Core/               # Core components
-│   │   │   ├── Storage.php              # File storage handling
-│   │   │   ├── Session.php              # User session handling
-│   │   │   └── App.php                  # Application setup and routing
+├── src/                                       # Application core
+│   ├── App/                                   # Core application logic
+│   │   ├── Controllers/
+│   │   │   ├── AuthController.php             # Login and registration logic
+│   │   │   └── NoteController.php             # Note management logic
+│   │   ├── Models/
+│   │   │   ├── User.php                       # User model
+│   │   │   └── Note.php                       # Note model
+│   │   ├── Views/
+│   │   │   ├── auth/                          # Authentication views
+│   │   │   ├── notes/                         # Note views
+│   │   │   └── partials/                      # Partials (header, footer, etc.)
+│   │   ├── Core/                              # Core components
+│   │   │   ├── Storage.php                    # File storage handling
+│   │   │   ├── Session.php                    # User session handling
+│   │   │   └── App.php                        # Application setup and routing
 └── data/
-    ├── users.json              # JSON file for storing user data
-    └── notes.json              # JSON file for storing notes
+    ├── users.json                             # JSON file for storing user data
+    └── notes.json                             # JSON file for storing notes
