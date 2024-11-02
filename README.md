@@ -27,15 +27,15 @@
 ```plaintext
 note-keeper/
 ├── public/                                    # Public directory for web server access
-│   ├── index.php                              # Main entry point
-│   ├── login.php                              # Login page
-│   └── register.php                           # Registration page
+│   ├── add_note.php
+│   ├── auth.php
+│   ├── delete_note.php
+│   ├── index.php 
+│   ├── logout.php
+│   └── register.php
 │ 
 ├── src/                                       # Application core
 │   ├── App/                                   # Core application logic
-│   │   ├── Controllers/
-│   │   │   ├── AuthController.php             # Login and registration logic
-│   │   │   └── NoteController.php             # Note management logic
 │   │   ├── Models/
 │   │   │   ├── User.php                       # User model
 │   │   │   └── Note.php                       # Note model
