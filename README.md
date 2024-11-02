@@ -66,6 +66,6 @@ note-keeper/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/amormul/magic-ball-interactive.git](https://github.com/amormul/note-keeper.git
+   git clone https://github.com/amormul/note-keeper.git
    ```
 ---
