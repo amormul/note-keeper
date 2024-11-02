@@ -37,16 +37,19 @@ note-keeper/
 ├── src/                                       # Application core
 │   ├── App/                                   # Core application logic
 │   │   ├── Models/
-│   │   │   ├── User.php                       # User model
-│   │   │   └── Note.php                       # Note model
+│   │   │   ├── User.php
+│   │   │   └── Note.php
 │   │   ├── Views/
-│   │   │   ├── auth/                          # Authentication views
-│   │   │   ├── notes/                         # Note views
-│   │   │   └── partials/                      # Partials (header, footer, etc.)
+│   │   │   ├── auth/
+│   │   │   │   ├── login.php
+│   │   │   │   └── register.php
+│   │   │   ├── notes/
+│   │   │   │   └── dashboard.php
+│   │   │   └── templates/
+│   │   │   │   ├── header.php
+│   │   │   │   └── footer.php
 │   │   ├── Core/                              # Core components
-│   │   │   ├── Storage.php                    # File storage handling
-│   │   │   ├── Session.php                    # User session handling
-│   │   │   └── App.php                        # Application setup and routing
+│   │   │   └── App.php
 └── data/
     ├── users.json                             # JSON file for storing user data
     └── notes.json                             # JSON file for storing notes
