@@ -1,4 +1,7 @@
 <?php include_once(__DIR__ . '/../templates/header.php'); ?>
+<div class="w3-container w3-teal">
+    <h1>NoteKeeper</h1>
+</div>
 <div class="w3-container w3-padding-32">
     <div class="w3-card-4 w3-margin w3-white" style="max-width:500px;margin:auto !important;">
         <div class="w3-container w3-teal">
