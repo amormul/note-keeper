@@ -22,6 +22,13 @@
 
 ---
 
+## 📋 Screenshots
+
+![image](https://github.com/user-attachments/assets/ddf518eb-7b2c-4922-90a5-73f4673af476)
+![image](https://github.com/user-attachments/assets/e48b5ecf-0c44-445f-ad9e-4461c9d4462b)
+
+---
+
 ## ⚙️ Project Structure
 
 ```plaintext
@@ -53,3 +60,12 @@ note-keeper/
 └── data/
     ├── users.json                             # JSON file for storing user data
     └── notes.json                             # JSON file for storing notes
+```
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/amormul/magic-ball-interactive.git](https://github.com/amormul/note-keeper.git
+   ```
+---
